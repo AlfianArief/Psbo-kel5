@@ -1,0 +1,122 @@
+*{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+aside{
+    width: 60%;
+    height: 650px;
+    background-color: #0A70BB; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 40%;
+    height: 650px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    float: right;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#forgot-pass{
+    color: #16a085;
+    font-family:"Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: left;
+}
+
+#card{
+    background-color: firebrick;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0,0,0,0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+
+#card-content{
+    padding: 12px 44px;
+}
+
+#card-title{
+    font-family:"Raleway", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.remember{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: slategrey;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#submit-btn{
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    box-shadow: 0px 1px 8px lightslategray;
+    cursor: pointer;
+    color: #fff;
+    font-family:"Raleway", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-right: 80px;
+    margin-top: 0 auto;
+    transition: 0.25s;
+    width: 153px;
+}
+
+#submit-btn:hover{
+    box-shadow: 0px 1px 18px #fff;
+}
+
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border{
+    height: 1px;
+    width: 100%;
+}
+
+.form-content{
+    background-color: #F9F7F7;
+    border: 1px;
+    outline: none;
+    padding-top: 14px;
+    font-family: -apple-system;
+    font-size: 25px;
+}
+
+.logo img{
+    float: center;
+    width: 220px;
+    height: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.signup p a{
+    color: mediumblue;
+}
